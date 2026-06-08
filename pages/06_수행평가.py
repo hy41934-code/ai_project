@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # 데이터 불러오기
-df = pd.read_csv("./daegu.csv", encoding="utf-8")
+df = pd.read_csv("./daegu.csv", encoding="cp949")
 
 st.title("🗺️ 대구 북구 관광지 추천기")
 st.write("관광지 종류를 선택하면 추천 장소를 알려줄게! 😎")
